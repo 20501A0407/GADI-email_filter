@@ -27,7 +27,7 @@ GADI EMAIL FILTER is a Python-based tool designed to efficiently filter, clean, 
    ```
 3. Run the application*
    ```sh
-   python email_filter_tool.py
+   python gadi_email_filter.py
    ```
 
 ## Usage
