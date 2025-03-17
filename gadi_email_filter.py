@@ -7,12 +7,12 @@ import pandas as pd
 import re
 
 def extract_email(text):
-    """Extract email if it contains @, otherwise return None."""
+    "Extract email if it contains @, otherwise return None."
     match = re.search(r'[\w\.-]+@[\w\.-]+', str(text))
     return match.group(0).lower() if match else None
 
 def find_email_column(df):
-    """Auto-detect email column based on common names and @ symbol presence."""
+    "Auto-detect email column based on common names and @ symbol presence."
     common_names = ["email", "e-mail", "email address", "emails"]
     for col in df.columns:
         if col.lower() in common_names:
@@ -23,7 +23,7 @@ def find_email_column(df):
     return None
 
 def safe_read_csv(file_path):
-    """Try reading CSV with multiple encodings to avoid errors."""
+    "Try reading CSV with multiple encodings to avoid errors."
     encodings = ["utf-8", "ISO-8859-1", "latin1"]
     for enc in encodings:
         try:
@@ -33,7 +33,7 @@ def safe_read_csv(file_path):
     return pd.read_csv(file_path, encoding="utf-8", errors="ignore")
 
 def create_backup(file_path):
-    """Create a timestamped backup of the collected file before modification."""
+    "Create a timestamped backup of the collected file before modification."
     backup_folder = os.path.join(os.path.dirname(file_path), "backups")
     os.makedirs(backup_folder, exist_ok=True)
 
