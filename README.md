@@ -10,8 +10,14 @@ GADI EMAIL FILTER is a Python-based tool that cleans bulk email lists by cross-c
 - 🔄 Multiple File Support – Allows importing multiple files for comparison.
 - 🖥 User-Friendly GUI – Built with Tkinter or PyQt for easy operation.
 - Fast Processing – Optimized for handling large datasets (~1 crore emails).
+🛠️ Requirements & Installation
+Before running the project, ensure your system has the necessary dependencies installed.
 
-## Installation
+### 📌 Requirements
+- Python 3.7+
+- Required libraries: `pandas`, `openpyxl`, `tkinter`
+
+## Installation of Tool
 
 1. Clone the repository*
    ```sh
@@ -27,12 +33,11 @@ GADI EMAIL FILTER is a Python-based tool that cleans bulk email lists by cross-c
    python gadi_email_filter.py
    ```
 
-## Usage
-
-1. Upload Database – Load your existing email files (CSV/Excel).
-2. Select Collected Emails – Choose the newly collected emails file.
-3. Start Filtering – The tool will remove duplicate and invalid emails.
-4. View Results – Check the updated file, removed emails log, and summary report.
+## 📂 How to Use
+1. **Upload Database**: Load your existing email dataset (CSV/Excel).
+2. **Select Collected Emails File**: Choose the new email data file for filtering.
+3. **Run the Process**: Click the button to start filtering.
+4. **View Results**: Check the logs and reports for filtered data.
 
 ## License
 
