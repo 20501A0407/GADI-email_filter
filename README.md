@@ -28,10 +28,22 @@ Before running the project, ensure your system has the necessary dependencies in
    ```sh
    pip install -r requirements.txt
    ```
-3. Run the application*
-   ```sh
-   python gadi_email_filter.py
-   ```
+
+After installation follow the below steps to run the application
+
+##🔧 Running the Tool
+Navigate to the project directory and execute the script:
+
+```sh
+cd path/to/GADI-email_filter  # Change to the project directory
+python email_filter_tool.py  # Run the tool
+```
+
+If using a GUI version:
+
+```sh
+python gui_tool.py
+```
 
 ## 📂 How to Use
 1. **Upload Database**: Load your existing email dataset (CSV/Excel).
