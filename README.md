@@ -9,7 +9,7 @@ GADI EMAIL FILTER is a Python-based tool that cleans bulk email lists by cross-c
 - 💾 Automatic Backup – Saves a backup of the collected emails before modification.
 - 🔄 Multiple File Support – Allows importing multiple files for comparison.
 - 🖥 User-Friendly GUI – Built with Tkinter or PyQt for easy operation.
-- 🚀 Fast Processing – Optimized for handling large datasets (~1 crore emails).
+- Fast Processing – Optimized for handling large datasets (~1 crore emails).
 
 ## Installation
 
